@@ -3,44 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <title>Get Your Car | Landing Page</title>
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <header>
-        <div class="logo">Get Your Car</div>
-        <nav>
-            <ul>
-                <li>Button 1</li>
-                <li>Button 2</li>
-                <li>Button 3</li>
-            </ul>
-        </nav>
-    </header>
+    <section class="hero">
+        <header>
+            <div class="logo">Get Your Car</div>
+            <nav>
+                <ul>
+                    <li><a href="#cards-section">Vehicles</a></li>
+                    <li><a href="#quote-section">Review</a></li>
+                    <li><a href="#newslatter-section">Newslatter</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <section>
-        <div>
+        <div id="welcome-section">
             <div>
                 <h1>This website is awesome</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus sunt ab ipsa fuga repudiandae quisquam esse tempore deserunt excepturi rem, unde illum assumenda fugiat ipsam enim quo perspiciatis odio eligendi.</p>
+                <button>Try it out</button>
             </div>
-            <button>Try it out</button>
+            <div id="video"></div>
         </div>
-        <img></img>
     </section>
 
-    <section>
+    <section id="cards-section">
         <h2>Some random information</h2>
-        <div>
-
+        <div class="cards-container">
+            <div class="card">
+                <img class="vehicle" src="images/BMW-M2.jpeg" alt="BMW M2">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="card">
+                <img class="vehicle" src="images/NISSAN-180SX-TYPEX.jpeg" alt="Nissan 180SX TYPE-X">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div class="card">
+                <img class="vehicle" src="images/infiniti-Q60S.jpeg" alt="Infinity Q60S">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
         </div>
     </section>
 
-    <section>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, tenetur, nostrum possimus ad, alias sed sequi neque delectus officiis quis at distinctio quod soluta ratione quasi eveniet eaque laboriosam ipsam!</p>
+    <section id="quote-section">
+        <em>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, tenetur, nostrum possimus ad, alias sed sequi neque delectus officiis quis at distinctio quod soluta ratione quasi eveniet eaque laboriosam ipsam! ipsum dolor sit amet, consectetur adipisicing elit Rerum, tenetur, nostrum possimus ad, alias sed sequi neque delectus officiis quis at distinctio."</em>
         <strong>- Anonymous happy client</strong>
     </section>
 
-    <section>
-        <div>
+    <section id="newslatter-section">
+        <div class="newslatter-box">
             <div>
                 <h3>Sign it! It's free!</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
