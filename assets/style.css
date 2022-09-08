@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+section, footer{
+    padding: 0 10rem;
+}
+.hero, footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+body, .hero{
+    display: flex;
+    flex-direction: column;
+}
+header,footer{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: none;
+    font-weight: bold;
+}
+
+#welcome-section{
+    margin: 6rem 0;
+    display: flex;
+    gap: 1rem;
+
+}
+h1{
+    font-weight: bolder;
+    font-size: 2.9rem;
+}
+#video{
+    height: 250px;
+    width: 450px;
+    background-color: black;
+    flex: 0 0 auto;
+}
+
+#cards-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+.cards-container{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+.card{
+    text-align: center;
+    width: 300px;
+    flex: 1 0 auto;
+}
+h2{
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 2rem;
+}
+.vehicle{
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+    width: 300px;
+    height: 150px;
+    flex: 1 0 auto;
+}
+
+#quote-section{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background-color: #e5e7eb ;
+    color: #1f2937;
+
+    display: flex;
+    flex-direction: column;
+}
+#quote-section > em{
+    font-size: 1.3rem;
+    padding: 0 2rem;
+}
+#quote-section > strong{
+    margin-top: 1rem;
+    align-self: flex-end;
+}
+
+#newslatter-section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    color: #f9faf8;
+    display: flex;
+    align-items: center;
+}
+.newslatter-box{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 2rem 4rem;
+    flex: 1;
+}
+.newslatter-box > button{
+    outline: #f9faf8 solid 1px;
+    padding: 5px 1rem;
+}
+
+footer{
+    text-align: center;
+}
