@@ -129,14 +129,14 @@ h2{
     align-self: flex-end;
 }
 
-#newslatter-section{
+#newsletter-section{
     padding-top: 4rem;
     padding-bottom: 4rem;
     color: #f9faf8;
     display: flex;
     align-items: center;
 }
-.newslatter-box{
+.newsletter-box{
     background-color: #3882f6;
     display: flex;
     border-radius: 5px;
@@ -145,7 +145,7 @@ h2{
     padding: 2rem 4rem;
     flex: 1;
 }
-.newslatter-box > button{
+.newsletter-box > button{
     outline: #f9faf8 solid 1px;
     padding: 5px 1rem;
     margin: 0;
