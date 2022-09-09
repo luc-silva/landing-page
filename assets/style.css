@@ -50,6 +50,7 @@ button{
     background-color: #3882f6;
     border: none;
     font-weight: bold;
+    margin-top: 1rem;
 }
 
 .hero{
@@ -147,6 +148,7 @@ h2{
 .newslatter-box > button{
     outline: #f9faf8 solid 1px;
     padding: 5px 1rem;
+    margin: 0;
 }
 
 footer{
